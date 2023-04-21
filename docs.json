@@ -16,6 +16,11 @@
       "link": "https://docs.pieces.app"
     },
     {
+      "title": "Company News",
+      "icon": "newspaper",
+      "link": "https://news.pieces.app"
+    },
+    {
       "title": "YouTube Channel",
       "icon": "youtube",
       "link": "https://youtube.com/@getpieces"
