@@ -19,7 +19,7 @@ export const Card = props => {
 }
 
 export const Date = props => {
-    return <p>{ props.children }</p>
+    return <p style={{ marginTop: "0px" }}>{ props.children }</p>
 }
 
 export const Title = props => {
@@ -28,13 +28,13 @@ export const Title = props => {
 
 export const Author = props => {
     return <div style={{ display: "flex", flexDirection: "row", flexWrap: "nowrap"}}>
-        <img src={"/assets/pieces_dark.png"} />
+        <img src="/assets/pieces_dark.png" />
         <p>The Pieces Team</p>
     </div>
 }
 
 export const Snip = props => {
-    return <p>{ props.children }</p>
+    return <p style={{ lineHeight: "1.0" }}>{ props.children }</p>
 }
 
 export const Tags = props => {
