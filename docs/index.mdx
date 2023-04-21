@@ -11,17 +11,44 @@ export const MainContainer = props => {
 }
 
 export const Card = props => {
-    return <div style={{ display: "flex", flexDirection: "column", width: "50%", minWidth: "50%", height: "475px", border: "2px solid red" }}>
-        { props.children }
+    return <div style={{ display: "flex", flexDirection: "column", width: "50%", minWidth: "50%", height: "400px", border: "2px solid red" }}>
+        <div style={{padding: "10px"}}>
+            { props.children }
+        </div>
     </div>
+}
+
+export const Date = props => {
+    return <p>{ props.children }</p>
+}
+
+export const Title = props => {
+    return <h3>{ props.children }</h3>
+}
+
+export const Author = props => {
+    return <div style={{ display: "flex", flexDirection: "row", flexWrap: "nowrap"}}>
+        <img src={"/assets/pieces_dark.png"} />
+        <p>The Pieces Team</p>
+    </div>
+}
+
+export const Snip = props => {
+    return <p>{ props.children }</p>
+}
+
+export const Tags = props => {
+    return <p><strong>{ props.children }</strong></p>
 }
 
 
 <MainContainer>
-    <Card></Card>
-    <Card></Card>
-    <Card></Card>
-    <Card></Card>
-    <Card></Card>
+    <Card>
+        <Date>April 13th, 2023</Date>
+        <Title>Pieces Web Extension 2.6.0: Enable/Disable Pieces Buttons by Default</Title>
+        <Author></Author>
+        <Snip>Thanks to feedback from our users, we’re adjusting how the Web Extension works a little bit. Sometimes, you don’t want Pieces buttons to show up for every single block of code on the web, so we’re making it easier to customize your experience.</Snip>
+        <Tags>Bug Fixes + UX/UI Updates</Tags>
+    </Card>
 </MainContainer>
 
