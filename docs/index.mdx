@@ -1,1 +1,28 @@
-# Example Docs!
+---
+title: Pieces for Developers | Releases
+description: Check out our latest product release for our extensions and plugins and learn how to use never before seen features.
+---
+
+
+export const MainContainer = props => {
+    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
+        { props.children }
+    </div>
+}
+
+export const Card = props => {
+    return <div style={{ display: "flex", flexDirection: "column", width: "50%", border: "2px solid red" }}>
+        { props.children }
+    </div>
+}
+
+
+<MainContainer>
+
+    <Card></Card>
+    <Card></Card>
+    <Card></Card>
+    <Card></Card>
+    <Card></Card>
+</MainContainer>
+
