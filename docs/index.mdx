@@ -11,7 +11,7 @@ export const MainContainer = props => {
 }
 
 export const Card = props => {
-    return <div style={{ display: "flex", flexDirection: "column", width: "50%", minWidth: "50%", height: "400px", border: "2px solid red" }}>
+    return <div style={{ display: "flex", flexDirection: "column", width: "50%", minWidth: "50%", height: "400px", border: "2px solid red", borderRadius: "10px" }}>
         <div style={{padding: "10px"}}>
             { props.children }
         </div>
@@ -23,7 +23,7 @@ export const Date = props => {
 }
 
 export const Title = props => {
-    return <h3>{ props.children }</h3>
+    return <h3 style={{ marginTop: "4px" }}>{ props.children }</h3>
 }
 
 export const Author = props => {
