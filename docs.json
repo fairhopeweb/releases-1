@@ -1,5 +1,25 @@
 {
-    "name": "Releases",
-    "theme": "#36B9B9",
-    "sidebar": []
-  }
+  "name": "Pieces for Developers",
+  "theme": "#BFC5EA",
+  "favicon": "/assets/pieces_dark.png",
+  "logo": "/assets/pieces_dark.png",
+  "logoDark": "/assets/pieces_light.png",
+  "anchors": [
+    {
+      "title": "Visit pieces.app",
+      "icon": "home",
+      "link": "https://pieces.app"
+    },
+    {
+      "title": "Documentation",
+      "icon": "pencil",
+      "link": "https://docs.pieces.app"
+    },
+    {
+      "title": "YouTube Channel",
+      "icon": "youtube",
+      "link": "https://youtube.com/@getpieces"
+    }
+  ],
+  "sidebar": []
+}
