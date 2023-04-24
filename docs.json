@@ -26,5 +26,20 @@
       "link": "https://youtube.com/@getpieces"
     }
   ],
-  "sidebar": []
+  "sidebar": [
+    ["Latest", [
+      ["Pieces for Developers | 1.13.0", "/updates/pieces-developers-ai-transformations"],
+      ["Chrome Extension | 2.6.0", "/updates/pieces-web-extension-adjust-default-settings"],
+      ["Intellij Plugin | 5.2.0", "/updates/pieces-jetbrains-snippet-preview-list"],
+      ["VSCode Extension | 0.6.0", "/updates/pieces-vs-code-related-materials"]
+    ]],
+    ["This Month", "/"],
+    ["Recap Releases", [
+      ["22 Biggest Achievements Of 2022", "/updates/pieces-for-developers-22-biggest-achievements-of-2022"],
+      ["Reimagined VS Code Marketplace, Workflow Activity Upgrades, and Smart Actions", "/updates/pieces-for-developers-recap-reimagined-visual-studio-code-marketplace-listing-workflow-activity-upgrades-smart-actions-in-the-desktop-app"],
+      ["Website Redesign, 10,000 Installs", "/updates/pieces-for-developers-recap-website-redesign-10000-installs-and-more"],
+      ["Save To Pieces As, Git History, Dart Cli Tutorials", "/updates/pieces-recap-save-to-pieces-as-git-history-dart-cli-tutorials-and-more"]
+    ]]
+
+  ]
 }
