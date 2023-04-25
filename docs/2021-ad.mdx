@@ -1,0 +1,8 @@
+export const ClickThrough = props => {
+    return <a style={{ textDecoration: "none", color: "white" }} href={ props.src }>
+        <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
+        </div>
+    </a>;
+}
+
