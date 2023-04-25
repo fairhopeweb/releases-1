@@ -1,3 +1,18 @@
 
 
-<Accordion title="Click me to expand the accordion">This is collapsible content!</Accordion>
+
+export const ClickThrough = props => {
+    return <a style={{ textDecoration: "none"}} href={ props.src }>
+        <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
+        </div>
+    </a>;
+}
+
+
+<Accordion title="Pieces Web Extension 2.6.0: Enable/Disable Pieces Buttons by Default">
+    Thanks to feedback from our users, we’re adjusting how the Web Extension works a little bit. Sometimes, you don’t want Pieces buttons to show up for every single block of code on the web, so we’re making it easier to customize your experience.
+
+    You can now choose to either Enable or Disable the buttons on all sites by default. (Note: New users will have the Pieces buttons automatically enabled.) To make this switch, head to the Web Extension settings.
+    <ClickThrough src="/pieces-web-extension-adjust-default-settings">Full Release Details</ClickThrough>
+</Accordion>
