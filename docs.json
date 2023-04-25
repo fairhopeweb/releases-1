@@ -28,7 +28,7 @@
   ],
   "sidebar": [
     ["Latest", [
-      ["Pieces for Developers | 1.13.0", "/updates/pieces-developers-ai-transformations"],
+      ["Pieces Desktop App | 1.13.0", "/updates/pieces-developers-ai-transformations"],
       ["Chrome Extension | 2.6.0", "/updates/pieces-web-extension-adjust-default-settings"],
       ["Intellij Plugin | 5.2.0", "/updates/pieces-jetbrains-snippet-preview-list"],
       ["VSCode Extension | 0.6.0", "/updates/pieces-vs-code-related-materials"]
