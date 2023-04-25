@@ -1,8 +1,56 @@
 {
-    "name": "Releases",
-    "theme": "#36B9B9",
-    "sidebar": [
-      ["Home", "/"],
-      ["Another Page", "/another-page"]
-    ]
-  }
+  "name": "Pieces for Developers",
+  "theme": "#BFC5EA",
+  "favicon": "/assets/pieces_dark.png",
+  "logo": "/assets/pieces_dark.png",
+  "logoDark": "/assets/pieces_light.png",
+  "anchors": [
+    {
+      "title": "Visit pieces.app",
+      "icon": "home",
+      "link": "https://pieces.app"
+    },
+    {
+      "title": "Documentation",
+      "icon": "pencil",
+      "link": "https://docs.pieces.app"
+    },
+    {
+      "title": "Company News",
+      "icon": "newspaper",
+      "link": "https://news.pieces.app"
+    },
+    {
+      "title": "YouTube Channel",
+      "icon": "youtube",
+      "link": "https://youtube.com/@getpieces"
+    }
+  ],
+  "sidebar": [
+    ["Latest", [
+      ["Pieces Desktop App | 1.13.0", "/updates/pieces-developers-ai-transformations"],
+      ["Chrome Extension | 2.6.0", "/updates/pieces-web-extension-adjust-default-settings"],
+      ["Jetbrains Plugin | 5.2.0", "/updates/pieces-jetbrains-snippet-preview-list"],
+      ["VSCode Extension | 0.6.0", "/updates/pieces-vs-code-related-materials"]
+    ]],
+    ["Other Recent Releases", [
+      ["JetBrains 5.1.0: Discover Related Materials", "/updates/pieces-jetbrains-related-materials"],
+      ["PFD 1.12.0 & POS 4.2.1: Global Search", "/updates/pieces-desktop-app-os-global-search"],
+      ["JetBrains 5.0.0: Explore Insights", "/updates/pieces-jetbrains-explore-materials"],
+      ["VSCode 0.5.0: Meet Pieces Insights" , "/updates/pieces-vs-code-explore-insights"],
+      ["PFD 1.11.0 & POS 4.0.0: Github Era", "/updates/pieces-desktop-app-github-integration"]
+    ]],
+    ["Recap Releases", [
+      ["22 Biggest Achievements Of 2022", "/updates/pieces-for-developers-22-biggest-achievements-of-2022"],
+      ["Reimagined VS Code Marketplace, Workflow Activity Upgrades, and Smart Actions", "/updates/pieces-for-developers-recap-reimagined-visual-studio-code-marketplace-listing-workflow-activity-upgrades-smart-actions-in-the-desktop-app"],
+      ["Website Redesign, 10,000 Installs", "/updates/pieces-for-developers-recap-website-redesign-10000-installs-and-more"],
+      ["Save To Pieces As, Git History, Dart Cli Tutorials", "/updates/pieces-recap-save-to-pieces-as-git-history-dart-cli-tutorials-and-more"]
+    ]],
+    ["Archive", [
+      ["2023 (so far)", "/2023"],
+      ["2022 August - December", "/2022-ad"],
+      ["2022: Jan - July", "/2022-jj"],
+      ["2021", "/2021"]
+    ]]
+  ]
+}

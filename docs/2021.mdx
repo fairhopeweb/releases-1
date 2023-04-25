@@ -1,0 +1,65 @@
+export const ClickThrough = props => {
+    return <a style={{ textDecoration: "none", color: "white" }} href={ props.src }>
+        <div style={{ maxWidth: "fit-content", minWidth: "fit-content"}}>
+            <p style={{ padding: "8px 20px", borderRadius: "8px", border: "1px solid #f3f5f6", backgroundColor: "black", color: "white", fontWeight: "500", marginBottom: "8px", marginTop: "30px"}}>{ props.children }</p>
+        </div>
+    </a>;
+}
+
+<Accordion defaultOpen title="1.5.0: Extract code from screenshots and more">
+    A few major features in this release, the biggest being that you can now drag in screenshots of code, and Pieces will automatically convert it to copyable text. Read below for more new features and UI changes.
+    <ClickThrough src="/updates/1-5-0-extract-code-from-screenshots-and-more">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="1.4.10: Related Links, Support for Image Processing and more">
+    We're excited to announce the release of 1.4.10.
+
+    The headliners in this release include:
+
+    Related Links: when saving a code snippet, context is critical. It's often useful to associate related web pages with your code snippets. Now you can, simply by tapping CMD+K to associate any number of URLs to a piece.
+    Image Processing: Pieces OS now contains all the infrastructure needed to store and process images, including screenshots. User-facing upgrades will be out in a couple weeks.
+    <ClickThrough src="/updates/1-4-10-related-links-support-for-image-processing-and-more">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="1.4.8: Suggested Save from JetBrains, one-click save from Chrome">
+    A couple of major feature releases today, with the theme of enabling you to save snippets in 1 second or less directly from your tools such as Chrome and IntelliJ.
+
+    More broadly, this marks the launch of Suggested Save, the first of several major machine learning-driven features to come. Look for a lot more work on deepening our functionality inside the tools you use all day as a developer.
+    <ClickThrough src="/updates/1-4-8-suggested-save-from-jetbrains-one-click-save-from-chrome">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="1.4.7: Improved search results, Suggestions API and more">
+    Lots of useful improvements in today's release! Most importantly, this release marks the release of critical API infrastructure that will support upcoming user features around auto-saving snippets and other machine learning-driven suggestions. Pieces is about to get a whole lot smarter!
+    <ClickThrough src="/updates/1-4-7-improved-search-results-suggestions-api-and-more">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="Pieces Release 1.4.5 - Drag & Drop on MacOS, Suggest a Language, and more!">
+    For newer users, Pieces OS is the background service that enables Pieces to work locally and handles communications with any integrations you install including support for automatically launching Pieces OS on machine boot-up on Windows.
+    <ClickThrough src="/updates/pieces-release-1-4-5-drag-and-drop-suggest-and-more">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="Pieces for UltraEdit available for beta release">
+    Today's a big day at Pieces as we're excited to beta release the Pieces for UltraEdit integration! This is a landmark for us as this is the first integration on top of the Pieces app built entirely by a third-party developer - in this case, our friends and partners at UltraEdit.
+    <ClickThrough src="/updates/pieces-for-ultraedit-available-for-beta-release">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="Pieces Release 1.4 - VS Code and UltraEdit integrations!">
+    For newer users, Pieces OS is the background service that enables Pieces to work locally and handles communications with any integrations you install, among many other tasks.
+
+    Support for automatically launching Pieces OS on machine boot-up
+    Pieces database file moved to a non-temp location
+    New redirect pages for successful sign-in & sign-out
+    <ClickThrough src="/updates/pieces-release-1-4-vs-code-and-ultraedit-integrations">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="Pieces Release 1.3.9 - Integrations, better search and much more!">
+    We're shipping a doozy of a release today! Check out the full release notes to see what all we shipped on this version bump!
+    <ClickThrough src="/updates/pieces-release-1-3-9-integrations-better-search-and-much-more-630d209548fb0">Full Release Details</ClickThrough>
+</Accordion>
+
+<Accordion title="Howdy world!">
+    We're excited to be coming out of development and welcoming early users to our Alpha release.
+
+    We have a jam-packed roadmap and will be releasing around once per week.
+    <ClickThrough src="/updates/howdy-world">Full Release Details</ClickThrough>
+</Accordion>
